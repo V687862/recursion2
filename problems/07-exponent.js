@@ -13,16 +13,19 @@ of the numerator:
 
 4^-3 = (1/4) * (1/4) * (1/4) = 1/64.
 
-Examples:
-
-exponent(3, 2); // 9
-exponent(2, -2); // 1/4 (or 0.25)
-exponent(5, 5); // 3125
 ***********************************************************************/
 
 function exponent(num, power) {
   // Your code here 
+
 }
+
+Examples:
+
+console.log(exponent(3, 2)); // 9
+console.log(exponent(2, -2)); // 1/4 (or 0.25)
+console.log(exponent(5, 5)); // 3125
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
     module.exports = exponent;
